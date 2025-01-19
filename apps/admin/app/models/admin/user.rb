@@ -1,3 +1,3 @@
-class Admin::User < Admin::ApplicationRecord
+class Admin::User < ApplicationRecord
   self.table_name = "users"
 end

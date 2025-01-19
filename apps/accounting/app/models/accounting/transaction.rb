@@ -1,3 +1,3 @@
-class Accounting::Transaction < Accounting::ApplicationRecord
+class Accounting::Transaction < ApplicationRecord
   self.table_name = "transactions"
 end
