@@ -11,6 +11,15 @@
   </head>
 
   <body>
+    <h1>Core Layout</h1>
     <%= yield %>
+
+    <hr />
+    <h4>Navigation</h4>
+    <ul>
+      <li><%= link_to "Blogs", blog.blogs_path %></li>
+      <li><%= link_to "Accounting", accounting.transactions_path %></li>
+      <li><%= link_to "Admin", admin.users_path %></li>
+    </ul>
   </body>
 </html>
