@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  resources :users
-  resources :transactions
-  resources :blogs
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  mount Blog::Engine, at: "/"
+  mount Accounting::Engine, at: "/accounting"
+  mount Admin::Engine, at: "/admin"
 end
