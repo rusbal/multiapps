@@ -6,6 +6,10 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+require_relative '../apps/admin/lib/engine.rb'
+require_relative '../apps/accounting/lib/engine.rb'
+require_relative '../apps/blog/lib/engine.rb'
+
 module Multiapps
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
