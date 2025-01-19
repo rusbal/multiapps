@@ -9,6 +9,7 @@ Bundler.require(*Rails.groups)
 require_relative '../apps/admin/lib/engine.rb'
 require_relative '../apps/accounting/lib/engine.rb'
 require_relative '../apps/blog/lib/engine.rb'
+require_relative '../apps/core/lib/engine.rb'
 
 module Multiapps
   class Application < Rails::Application
