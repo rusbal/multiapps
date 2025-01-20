@@ -1,24 +1,6 @@
-# README
+# MULTIAPPS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Single Rails but has /apps instead of /app folder.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://github.com/rusbal/multiapps/tree/main
+![alt text](https://github.com/rusbal/multiapps/blob/main/image.png?raw=true)
